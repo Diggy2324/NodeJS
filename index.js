@@ -1,4 +1,5 @@
-import { prompt } from 'inquirer';
+import pkg from 'inquirer';
+const { prompt } = pkg;
 import { writeFile } from 'fs';
 
 const questions = [
